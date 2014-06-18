@@ -1,9 +1,9 @@
 Regression tests of RPC interface
 =================================
 
-### [python-bitcoinrpc](https://github.com/jgarzik/python-bitcoinrpc)
-Git subtree of [https://github.com/jgarzik/python-bitcoinrpc](https://github.com/jgarzik/python-bitcoinrpc).
-Changes to python-bitcoinrpc should be made upstream, and then
+### [python-bitnote1rpc](https://github.com/jgarzik/python-bitnote1rpc)
+Git subtree of [https://github.com/jgarzik/python-bitnote1rpc](https://github.com/jgarzik/python-bitnote1rpc).
+Changes to python-bitnote1rpc should be made upstream, and then
 pulled here using git subtree.
 
 ### [skeleton.py](skeleton.py)
@@ -39,5 +39,5 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall bitcoind
+killall bitnote1d
 ```

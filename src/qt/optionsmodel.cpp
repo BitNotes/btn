@@ -1,14 +1,14 @@
-// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2011-2014 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "bitcoin-config.h"
+#include "bitnote1-config.h"
 #endif
 
 #include "optionsmodel.h"
 
-#include "bitcoinunits.h"
+#include "bitnote1units.h"
 #include "guiutil.h"
 
 #include "init.h"
@@ -56,7 +56,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::BTC);
+        settings.setValue("nDisplayUnit", bitnote1Units::BTC);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("bDisplayAddresses"))
@@ -94,7 +94,7 @@ void OptionsModel::Init()
 #ifdef ENABLE_WALLET
     if (!settings.contains("nTransactionFee"))
         settings.setValue("nTransactionFee", (qint64)DEFAULT_TRANSACTION_FEE);
-    payTxFee = CFeeRate(settings.value("nTransactionFee").toLongLong()); // if -paytxfee is set, this will be overridden later in init.cpp
+    nTransactionFee = settings.value("nTransactionFee").toLongLong(); // if -paytxfee is set, this will be overridden later in init.cpp
     if (mapArgs.count("-paytxfee"))
         addOverriddenOption("-paytxfee");
 
@@ -106,14 +106,13 @@ void OptionsModel::Init()
 
     // Network
     if (!settings.contains("fUseUPnP"))
-        settings.setValue("fUseUPnP", DEFAULT_UPNP);
+#ifdef USE_UPNP
+        settings.setValue("fUseUPnP", true);
+#else
+        settings.setValue("fUseUPnP", false);
+#endif
     if (!SoftSetBoolArg("-upnp", settings.value("fUseUPnP").toBool()))
         addOverriddenOption("-upnp");
-
-    if (!settings.contains("fListen"))
-        settings.setValue("fListen", DEFAULT_LISTEN);
-    if (!SoftSetBoolArg("-listen", settings.value("fListen").toBool()))
-        addOverriddenOption("-listen");
 
     if (!settings.contains("fUseProxy"))
         settings.setValue("fUseProxy", false);
@@ -192,16 +191,15 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return settings.value("nSocksVersion", 5);
 
 #ifdef ENABLE_WALLET
-        case Fee: {
-            // Attention: Init() is called before payTxFee is set in AppInit2()!
+        case Fee:
+            // Attention: Init() is called before nTransactionFee is set in AppInit2()!
             // To ensure we can change the fee on-the-fly update our QSetting when
             // opening OptionsDialog, which queries Fee via the mapper.
-            if (!(payTxFee == CFeeRate(settings.value("nTransactionFee").toLongLong(), 1000)))
-                settings.setValue("nTransactionFee", (qint64)payTxFee.GetFeePerK());
-            // Todo: Consider to revert back to use just payTxFee here, if we don't want
+            if (nTransactionFee != settings.value("nTransactionFee").toLongLong())
+                settings.setValue("nTransactionFee", (qint64)nTransactionFee);
+            // Todo: Consider to revert back to use just nTransactionFee here, if we don't want
             // -paytxfee to update our QSettings!
             return settings.value("nTransactionFee");
-        }
         case SpendZeroConfChange:
             return settings.value("bSpendZeroConfChange");
 #endif
@@ -219,8 +217,6 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return settings.value("nDatabaseCache");
         case ThreadsScriptVerif:
             return settings.value("nThreadsScriptVerif");
-        case Listen:
-            return settings.value("fListen");
         default:
             return QVariant();
         }
@@ -292,14 +288,12 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
         }
         break;
 #ifdef ENABLE_WALLET
-        case Fee: { // core option - can be changed on-the-fly
+        case Fee: // core option - can be changed on-the-fly
             // Todo: Add is valid check  and warn via message, if not
-            qint64 nTransactionFee = value.toLongLong();
-            payTxFee = CFeeRate(nTransactionFee, 1000);
-            settings.setValue("nTransactionFee", nTransactionFee);
+            nTransactionFee = value.toLongLong();
+            settings.setValue("nTransactionFee", (qint64)nTransactionFee);
             emit transactionFeeChanged(nTransactionFee);
             break;
-        }
         case SpendZeroConfChange:
             if (settings.value("bSpendZeroConfChange") != value) {
                 settings.setValue("bSpendZeroConfChange", value);
@@ -343,12 +337,6 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
         case ThreadsScriptVerif:
             if (settings.value("nThreadsScriptVerif") != value) {
                 settings.setValue("nThreadsScriptVerif", value);
-                setRestartRequired(true);
-            }
-            break;
-        case Listen:
-            if (settings.value("fListen") != value) {
-                settings.setValue("fListen", value);
                 setRestartRequired(true);
             }
             break;

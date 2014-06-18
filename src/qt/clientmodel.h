@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
+// Copyright (c) 2011-2013 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +9,6 @@
 
 class AddressTableModel;
 class OptionsModel;
-class PeerTableModel;
 class TransactionTableModel;
 
 class CWallet;
@@ -33,7 +32,7 @@ enum NumConnections {
     CONNECTIONS_ALL  = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for Bitcoin network client. */
+/** Model for bitnote1 network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT
@@ -43,7 +42,6 @@ public:
     ~ClientModel();
 
     OptionsModel *getOptionsModel();
-    PeerTableModel *getPeerTableModel();
 
     //! Return number of connections, default is in- and outbound (total)
     int getNumConnections(unsigned int flags = CONNECTIONS_ALL) const;
@@ -56,6 +54,8 @@ public:
     double getVerificationProgress() const;
     QDateTime getLastBlockDate() const;
 
+    //! Return network (main, testnet3, regtest)
+    QString getNetworkName() const;
     //! Return true if core is doing initial block download
     bool inInitialBlockDownload() const;
     //! Return true if core is importing blocks
@@ -71,7 +71,6 @@ public:
 
 private:
     OptionsModel *optionsModel;
-    PeerTableModel *peerTableModel;
 
     int cachedNumBlocks;
     bool cachedReindexing;
@@ -92,9 +91,6 @@ signals:
 
     //! Fired when a message should be reported to the user
     void message(const QString &title, const QString &message, unsigned int style);
-
-    // Show progress dialog e.g. for verifychain
-    void showProgress(const QString &title, int nProgress);
 
 public slots:
     void updateTimer();

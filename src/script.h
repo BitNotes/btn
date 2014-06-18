@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2013 The Bitcoin developers
+// Copyright (c) 2009-2013 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef H_BITCOIN_SCRIPT
-#define H_BITCOIN_SCRIPT
+#ifndef H_bitnote1_SCRIPT
+#define H_bitnote1_SCRIPT
 
 #include "key.h"
 #include "util.h"
@@ -233,7 +233,7 @@ public:
  *  * CNoDestination: no destination set
  *  * CKeyID: TX_PUBKEYHASH destination
  *  * CScriptID: TX_SCRIPTHASH destination
- *  A CTxDestination is the internal data type encoded in a CBitcoinAddress
+ *  A CTxDestination is the internal data type encoded in a Cbitnote1Address
  */
 typedef boost::variant<CNoDestination, CKeyID, CScriptID> CTxDestination;
 
@@ -661,7 +661,7 @@ public:
         return nFound;
     }
 
-    // Pre-version-0.6, Bitcoin always counted CHECKMULTISIGs
+    // Pre-version-0.6, bitnote1 always counted CHECKMULTISIGs
     // as 20 sigops. With pay-to-script-hash, that changed:
     // CHECKMULTISIGs serialized in scriptSigs are
     // counted more accurately, assuming they are of the form
@@ -691,6 +691,12 @@ public:
     void SetDestination(const CTxDestination& address);
     void SetMultisig(int nRequired, const std::vector<CPubKey>& keys);
 
+
+    void PrintHex() const
+    {
+        LogPrintf("CScript(%s)\n", HexStr(begin(), end(), true).c_str());
+    }
+
     std::string ToString() const
     {
         std::string str;
@@ -712,6 +718,11 @@ public:
                 str += GetOpName(opcode);
         }
         return str;
+    }
+
+    void print() const
+    {
+        LogPrintf("%s\n", ToString());
     }
 
     CScriptID GetID() const

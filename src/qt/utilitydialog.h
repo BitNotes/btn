@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2011-2014 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,12 +8,31 @@
 #include <QDialog>
 #include <QObject>
 
-class BitcoinGUI;
+class bitnote1GUI;
 class ClientModel;
 
 namespace Ui {
+    class AboutDialog;
     class HelpMessageDialog;
 }
+
+/** "About" dialog box */
+class AboutDialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit AboutDialog(QWidget *parent);
+    ~AboutDialog();
+
+    void setModel(ClientModel *model);
+
+private:
+    Ui::AboutDialog *ui;
+
+private slots:
+    void on_buttonBox_accepted();
+};
 
 /** "Help message" dialog box */
 class HelpMessageDialog : public QDialog
@@ -21,7 +40,7 @@ class HelpMessageDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit HelpMessageDialog(QWidget *parent, bool about);
+    explicit HelpMessageDialog(QWidget *parent);
     ~HelpMessageDialog();
 
     void printToConsole();
@@ -29,7 +48,9 @@ public:
 
 private:
     Ui::HelpMessageDialog *ui;
-    QString text;
+    QString header;
+    QString coreOptions;
+    QString uiOptions;
 
 private slots:
     void on_okButton_accepted();
@@ -42,7 +63,7 @@ class ShutdownWindow : public QObject
     Q_OBJECT
 
 public:
-    static void showShutdownWindow(BitcoinGUI *window);
+    static void showShutdownWindow(bitnote1GUI *window);
 };
 
 #endif // UTILITYDIALOG_H

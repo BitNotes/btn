@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Σχετικά με το Bitcoin Core</translation>
+        <source>About bitnote1 Core</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; έκδοση</translation>
+        <source>&lt;b&gt;bitnote1 Core&lt;/b&gt; version</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>
@@ -28,12 +28,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Πνευματική ιδιοκτησία </translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Οι προγραμματιστές του Bitcoin Core</translation>
+        <source>The bitnote1 Core developers</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -103,11 +103,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Διευθύνσεις λήψης</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι Bitcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your bitnote1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτές είναι οι bitnote1 διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your bitnote1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -128,11 +128,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Η εξαγωγή απέτυχε</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1.</source>
-        <translation>Παρουσιάστηκε σφάλμα κατά την αποθήκευση της λίστας πορτοφολιών στο %1.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -205,8 +205,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Επιβεβαίωσε την κρυπτογραφηση του πορτοφολιού</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ BITCOINS&lt;/b&gt;!
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR bitnote1S&lt;/b&gt;!</source>
+        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ bitnote1S&lt;/b&gt;!
 Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
     </message>
     <message>
@@ -226,8 +226,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Κρυπτογραφημενο πορτοφολι</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Το Bitcoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα bitcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.</translation>
+        <source>bitnote1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitnote1s from being stolen by malware infecting your computer.</source>
+        <translation>Το bitnote1 θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα bitnote1s σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -259,7 +259,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>bitnote1GUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Υπογραφή &amp;Μηνύματος...</translation>
@@ -297,8 +297,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Εξοδος από την εφαρμογή</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Εμφάνιση πληροφοριών σχετικά με το Bitcoin</translation>
+        <source>Show information about bitnote1</source>
+        <translation>Εμφάνιση πληροφοριών σχετικά με το bitnote1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -345,12 +345,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση bitcoin</translation>
+        <source>Send coins to a bitnote1 address</source>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση bitnote1</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Επεργασία  ρυθμισεων επιλογών για το Bitcoin</translation>
+        <source>Modify configuration options for bitnote1</source>
+        <translation>Επεργασία  ρυθμισεων επιλογών για το bitnote1</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -373,8 +373,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>bitnote1</source>
+        <translation>bitnote1</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -401,12 +401,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your bitnote1 addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <source>Verify messages to ensure they were signed with specified bitnote1 addresses</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση bitnote1</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -429,16 +429,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>bitnote1 Core</source>
+        <translation>bitnote1 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις bitcoin: )</translation>
+        <source>Request payments (generates QR codes and bitnote1: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις bitnote1: )</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Σχετικά με το Bitcoin Core</translation>
+        <source>&amp;About bitnote1 Core</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -449,7 +449,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a bitnote1: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -457,16 +457,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the bitnote1 Core help message to get a list with possible bitnote1 command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Πελάτης Bitcoin</translation>
+        <source>bitnote1 client</source>
+        <translation>Πελάτης bitnote1</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Bitcoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+        <source>%n active connection(s) to bitnote1 network</source>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο bitnote1</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -494,11 +494,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 και %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n έτος</numerusform><numerusform>%n έτη</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -561,8 +561,8 @@ Address: %4
         <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;κλειδωμένο&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το Bitcoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
+        <source>A fatal error occurred. bitnote1 can no longer continue safely and will quit.</source>
+        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το bitnote1 δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
     </message>
 </context>
 <context>
@@ -608,11 +608,11 @@ Address: %4
     </message>
     <message>
         <source>Change:</source>
-        <translation>Ρέστα:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(από)επιλογή όλων</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Tree mode</source>
@@ -672,7 +672,7 @@ Address: %4
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Αντιγραφή ποσότητας</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy fee</source>
@@ -684,11 +684,11 @@ Address: %4
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Αντιγραφή των byte</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Αντιγραφή προτεραιότητας</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy low output</source>
@@ -696,51 +696,51 @@ Address: %4
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Αντιγραφή των ρέστων</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>highest</source>
-        <translation>ύψιστη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>higher</source>
-        <translation>υψηλότερη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>high</source>
-        <translation>ψηλή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>μεσαία-ψηλή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>medium</source>
-        <translation>μεσαία</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>μεσαία-χαμηλή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>low</source>
-        <translation>χαμηλή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>lower</source>
-        <translation>χαμηλότερη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>lowest</source>
-        <translation>χαμηλότατη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 κλειδωμένο)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>none</source>
-        <translation>κανένα</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Dust</source>
@@ -796,12 +796,11 @@ Address: %4
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>ρέστα από %1 (%2) </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(ρέστα)
-</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -816,7 +815,7 @@ Address: %4
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Η ετικέτα που συνδέεται με αυτήν την καταχώρηση στο βιβλίο διευθύνσεων</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -847,8 +846,8 @@ Address: %4
         <translation>Η διεύθυνση &quot;%1&quot; βρίσκεται ήδη στο βιβλίο διευθύνσεων.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη Bitcoin διεύθυνση.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid bitnote1 address.</source>
+        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη bitnote1 διεύθυνση.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -885,12 +884,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core - Command-line options</source>
+        <source>bitnote1 Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>bitnote1 Core</source>
+        <translation>bitnote1 Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -936,15 +935,15 @@ Address: %4
         <translation>Καλώς ήρθατε</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Καλώς ήρθατε στο Bitcoin Core.</translation>
+        <source>Welcome to bitnote1 Core.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Καθώς αυτή είναι η πρώτη φορά που εκκινείται το πρόγραμμα, μπορείτε να διαλέξετε πού θα αποθηκεύει το Bitcoin Core τα δεδομένα του.</translation>
+        <source>As this is the first time the program is launched, you can choose where bitnote1 Core will store its data.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>bitnote1 Core will download and store a copy of the bitnote1 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -956,8 +955,8 @@ Address: %4
         <translation>Προσαρμογή του φακέλου δεδομένων: </translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>bitnote1</source>
+        <translation>bitnote1</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1018,11 +1017,11 @@ Address: %4
         <translation>Αμοιβή &amp;συναλλαγής</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Αυτόματη εκκίνηση του Bitcoin μετά την εισαγωγή στο σύστημα</translation>
+        <source>Automatically start bitnote1 after logging in to the system.</source>
+        <translation>Αυτόματη εκκίνηση του bitnote1 μετά την εισαγωγή στο σύστημα</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin on system login</source>
+        <source>&amp;Start bitnote1 on system login</source>
         <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
     </message>
     <message>
@@ -1031,14 +1030,14 @@ Address: %4
     </message>
     <message>
         <source>MB</source>
-        <translation>MB</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <source>Connect to the bitnote1 network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1083,7 +1082,7 @@ Address: %4
     </message>
     <message>
         <source>Expert</source>
-        <translation>Έμπειρος</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1098,8 +1097,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών Bitcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the bitnote1 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτόματο άνοιγμα των θυρών bitnote1 στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1154,8 +1153,8 @@ Address: %4
         <translation>Γλώσσα περιβάλλοντος εργασίας: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting bitnote1.</source>
+        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του bitnote1.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1166,8 +1165,8 @@ Address: %4
         <translation>Διαλέξτε την προεπιλεγμένη υποδιαίρεση που θα εμφανίζεται όταν στέλνετε νομίσματα.</translation>
     </message>
     <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις Bitcoin στη λίστα συναλλαγών.</translation>
+        <source>Whether to show bitnote1 addresses in the transaction list or not.</source>
+        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις bitnote1 στη λίστα συναλλαγών.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1191,7 +1190,7 @@ Address: %4
     </message>
     <message>
         <source>none</source>
-        <translation>κανένα</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -1199,7 +1198,7 @@ Address: %4
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Χρειάζεται επανεκκίνηση του προγράμματος για να ενεργοποιηθούν οι αλλαγές.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
@@ -1221,8 +1220,8 @@ Address: %4
         <translation>Φόρμα</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Bitcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitnote1 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο bitnote1 μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1230,7 +1229,7 @@ Address: %4
     </message>
     <message>
         <source>Available:</source>
-        <translation>Διαθέσιμο:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1276,8 +1275,8 @@ Address: %4
         <translation>Χειρισμός URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση Bitcoin ή ακατάλληλη παραμέτρο URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid bitnote1 address or malformed URI parameters.</source>
+        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση bitnote1 ή ακατάλληλη παραμέτρο URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1288,8 +1287,8 @@ Address: %4
         <translation>Σφάλμα αιτήματος πληρωμής</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του Bitcoin: click-to-pay handler</translation>
+        <source>Cannot start bitnote1: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του bitnote1: click-to-pay handler</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1343,8 +1342,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>bitnote1</source>
+        <translation>bitnote1</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1359,23 +1358,23 @@ Address: %4
         <translation>Σφάλμα: Άκυρος συνδυασμός των -regtest και -testnet</translation>
     </message>
     <message>
-        <source>Bitcoin Core didn&apos;t yet exit safely...</source>
+        <source>bitnote1 Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a bitnote1 address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Εισάγετε μια διεύθυνση bitnote1 (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Αποθήκευση εικόνας...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Αντιγραφή εικόνας</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Save QR Code</source>
@@ -1410,7 +1409,7 @@ Address: %4
     </message>
     <message>
         <source>General</source>
-        <translation>Γενικά</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1426,7 +1425,7 @@ Address: %4
     </message>
     <message>
         <source>Name</source>
-        <translation>Όνομα</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Number of connections</source>
@@ -1458,11 +1457,11 @@ Address: %4
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Κίνηση δικτύου</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Εκκαθάριση</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Totals</source>
@@ -1485,7 +1484,7 @@ Address: %4
         <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the bitnote1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
     </message>
     <message>
@@ -1493,8 +1492,8 @@ Address: %4
         <translation>Καθαρισμός κονσόλας</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Καλώς ήρθατε στην Bitcoin RPC κονσόλα.</translation>
+        <source>Welcome to the bitnote1 RPC console.</source>
+        <translation>Καλώς ήρθατε στην bitnote1 RPC κονσόλα.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1537,7 +1536,7 @@ Address: %4
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Ποσό:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1545,7 +1544,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Μήνυμα:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
@@ -1556,7 +1555,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the bitnote1 network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1585,7 +1584,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Αίτηση πληρωμής</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
@@ -1609,7 +1608,7 @@ Address: %4
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Αντιγραφή μηνύματος</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1632,7 +1631,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Αποθήκευση εικόνας...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Request payment to %1</source>
@@ -1699,7 +1698,7 @@ Address: %4
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(κανένα ποσό)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1718,7 +1717,7 @@ Address: %4
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>επιλεγμένο αυτόματα</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -1754,7 +1753,7 @@ Address: %4
     </message>
     <message>
         <source>Change:</source>
-        <translation>Ρέστα:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
@@ -1802,7 +1801,7 @@ Address: %4
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Αντιγραφή ποσότητας</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1818,11 +1817,11 @@ Address: %4
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Αντιγραφή των byte</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Αντιγραφή προτεραιότητας</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy low output</source>
@@ -1830,15 +1829,15 @@ Address: %4
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Αντιγραφή των ρέστων</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Total Amount %1 (= %2)</source>
-        <translation>Ολικό Ποσό %1 (= %2)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>or</source>
-        <translation>ή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -1869,8 +1868,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση Bitcoin</translation>
+        <source>Warning: Invalid bitnote1 address</source>
+        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση bitnote1</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1941,7 +1940,7 @@ Address: %4
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Αφαίρεση αυτής της καταχώρησης</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Message:</source>
@@ -1956,7 +1955,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitnote1: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the bitnote1 network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1975,12 +1974,12 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Το Bitcoin Core τερματίζεται...</translation>
+        <source>bitnote1 Core is shutting down...</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Μην απενεργοποιήσετε τον υπολογιστή μέχρι να κλείσει αυτό το παράθυρο.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1999,7 +1998,7 @@ Address: %4
     </message>
     <message>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Εισάγετε μια διεύθυνση bitnote1 (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2030,8 +2029,8 @@ Address: %4
         <translation>Αντέγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <source>Sign the message to prove you own this bitnote1 address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση bitnote1</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2055,11 +2054,11 @@ Address: %4
     </message>
     <message>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Εισάγετε μια διεύθυνση bitnote1 (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified bitnote1 address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση bitnote1</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2070,8 +2069,8 @@ Address: %4
         <translation>Επαναφορά όλων επαλήθευμενων πεδίων μήνυματος </translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a bitnote1 address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Εισάγετε μια διεύθυνση bitnote1 (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2129,12 +2128,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>bitnote1 Core</source>
+        <translation>bitnote1 Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Οι προγραμματιστές του Bitcoin Core</translation>
+        <source>The bitnote1 Core developers</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2342,11 +2341,11 @@ Address: %4
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Ανεπιβεβαίωτες</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -2485,19 +2484,19 @@ Address: %4
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Εξαγωγή Ιστορικού Συναλλαγών</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Η Εξαγωγή Απέτυχε</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Yπήρξε σφάλμα κατά την προσπάθεια αποθήκευσης του ιστορικού συναλλαγών στο %1.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Επιτυχής εξαγωγή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -2548,7 +2547,7 @@ Address: %4
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Δεν έχει φορτωθεί πορτοφόλι</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2586,7 +2585,7 @@ Address: %4
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Τα δεδομένα πορτοφολιού αποθηκεύτηκαν με επιτυχία στο %1.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Backup Successful</source>
@@ -2594,7 +2593,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>bitnote1-core</name>
     <message>
         <source>Usage:</source>
         <translation>Χρήση:</translation>
@@ -2612,12 +2611,12 @@ Address: %4
         <translation>Επιλογές:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: bitnote1.conf)</source>
+        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: bitnote1.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: bitcoind.pid)</translation>
+        <source>Specify pid file (default: bitnote1d.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: bitnote1d.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2660,7 +2659,7 @@ Address: %4
         <translation>Αποδοχή εντολών κονσόλας και JSON-RPC</translation>
     </message>
     <message>
-        <source>Bitcoin Core RPC client version</source>
+        <source>bitnote1 Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2679,24 +2678,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=bitnote1rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;bitnote1 Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=bitnote1rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;bitnote1 Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2769,7 +2768,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Αυτό είναι ένα προ-τεστ κυκλοφορίας - χρησιμοποιήστε το με δική σας ευθύνη - δεν χρησιμοποιείτε για εξόρυξη ή για αλλες εφαρμογές</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. bitnote1 Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2781,8 +2780,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Προειδοποίηση: Η παράμετρος -paytxfee είναι πολύ υψηλή. Πρόκειται για την αμοιβή που θα πληρώνετε για κάθε συναλλαγή που θα στέλνετε.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το Bitcoin.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitnote1 will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το bitnote1.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2802,11 +2801,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(προεπιλογή: 1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>(default: wallet.dat)</source>
-        <translation>(προεπιλογή: wallet.dat)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -2817,7 +2816,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Προσπάθεια για ανακτησει ιδιωτικων κλειδιων από ενα διεφθαρμένο αρχειο wallet.dat </translation>
     </message>
     <message>
-        <source>Bitcoin Core Daemon</source>
+        <source>bitnote1 Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2842,7 +2841,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Επιλογές σύνδεσης:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3025,7 +3024,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use bitcoin-cli):</source>
+        <source>Usage (deprecated, use bitnote1-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3046,7 +3045,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Επιλογές πορτοφολιού:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
@@ -3061,7 +3060,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Εισαγωγή μπλοκ από εξωτερικό αρχείο blk000?.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. bitnote1 Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3125,7 +3124,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the bitnote1 Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3145,11 +3144,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Bitcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>SSL options: (see the bitnote1 Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο bitnote1 Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
-        <source>Send command to Bitcoin Core</source>
+        <source>Send command to bitnote1 Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3185,7 +3184,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Ορισμός λήξης χρονικού ορίου σε χιλιοστά του δευτερολέπτου(προεπιλογή:5000)</translation>
     </message>
     <message>
-        <source>Start Bitcoin Core Daemon</source>
+        <source>Start bitnote1 Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3230,7 +3229,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <source>on startup</source>
-        <translation>κατά την εκκίνηση</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>version</source>
@@ -3301,12 +3300,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Σφάλμα φόρτωσης wallet.dat: Κατεστραμμένο Πορτοφόλι</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of bitnote1</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του bitnote1</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του Bitcoin</translation>
+        <source>Wallet needed to be rewritten: restart bitnote1 to complete</source>
+        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του bitnote1</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

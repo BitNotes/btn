@@ -1,12 +1,12 @@
-// Copyright (c) 2009-2013 The Bitcoin developers
+// Copyright (c) 2009-2013 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_NETBASE_H
-#define BITCOIN_NETBASE_H
+#ifndef bitnote1_NETBASE_H
+#define bitnote1_NETBASE_H
 
 #if defined(HAVE_CONFIG_H)
-#include "bitcoin-config.h"
+#include "bitnote1-config.h"
 #endif
 
 #include "compat.h"
@@ -17,7 +17,6 @@
 #include <vector>
 
 extern int nConnectTimeout;
-extern bool fNameLookup;
 
 #ifdef WIN32
 // In MSVC, this is defined as a macro, undefine it to prevent a compile and link error
@@ -33,6 +32,9 @@ enum Network
 
     NET_MAX,
 };
+
+extern int nConnectTimeout;
+extern bool fNameLookup;
 
 /** IP address (IPv6, or IPv4 using mapped IPv6 range (::FFFF:0:0/96)) */
 class CNetAddr

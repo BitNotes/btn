@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2013 The Bitcoin developers
+// Copyright (c) 2009-2013 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,6 +10,7 @@
 #ifndef __INCLUDED_PROTOCOL_H__
 #define __INCLUDED_PROTOCOL_H__
 
+#include "chainparams.h"
 #include "netbase.h"
 #include "serialize.h"
 #include "uint256.h"
@@ -17,8 +18,6 @@
 
 #include <stdint.h>
 #include <string>
-
-#define MESSAGE_START_SIZE 4
 
 /** Message header.
  * (4) message start.

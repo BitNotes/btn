@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
+// Copyright (c) 2011-2013 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,7 +24,7 @@ public:
     PaymentRequestPlus() { }
 
     bool parse(const QByteArray& data);
-    bool SerializeToString(std::string* output) const;
+    bool SerializeToString(string* output) const;
 
     bool IsInitialized() const;
     QString getPKIType() const;

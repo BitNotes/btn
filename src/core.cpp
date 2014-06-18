@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2014 The bitnote1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -70,25 +70,6 @@ std::string CTxOut::ToString() const
 void CTxOut::print() const
 {
     LogPrintf("%s\n", ToString());
-}
-
-CFeeRate::CFeeRate(int64_t nFeePaid, size_t nSize)
-{
-    if (nSize > 0)
-        nSatoshisPerK = nFeePaid*1000/nSize;
-    else
-        nSatoshisPerK = 0;
-}
-
-int64_t CFeeRate::GetFee(size_t nSize)
-{
-    return nSatoshisPerK*nSize / 1000;
-}
-
-std::string CFeeRate::ToString() const
-{
-    std::string result = FormatMoney(nSatoshisPerK) + " BTC/kB";
-    return result;
 }
 
 uint256 CTransaction::GetHash() const
